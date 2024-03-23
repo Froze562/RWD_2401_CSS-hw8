@@ -1,0 +1,230 @@
+/* <==== Common CSS ====> */
+
+*{
+      padding: 0;
+      outline: 0;
+      margin: 0;
+      transition: .7s;
+      box-sizing: border-box;
+      font-family: "Open Sans", sans-serif;
+}
+a{
+      text-decoration: none;
+      color: #000;
+}
+.text-center{
+      text-align: center;
+}
+.row{
+      display: flex;
+      flex-wrap: wrap;
+}
+.box{
+      width: 1349px;
+      margin: 0 auto;
+}
+.container{
+      margin: auto;
+}
+
+/* <==== Common CSS ====> */
+/* <==== Main CSS ====> */
+
+.nav{
+      background-color: #02918b;
+}
+.full{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #02918b;
+}
+.padd{
+      padding: 5px 0;
+}
+.logo{
+      padding: 0 10px;
+}
+.menu ul{
+      display: flex;
+      list-style-type: none;
+}
+.menu a{
+      text-decoration: none;
+      font-weight: 800;
+      color: white;
+      text-transform: uppercase;
+      font-size: 12px;
+      padding: 10px 25px;
+      display: inline-block;
+}                                                                                                                                                                                                                         
+#banner{
+      background-size: cover;
+      height: 728px;
+      display: flex;
+      color: #fff;
+}
+.text h3{
+    width: 400;
+    font-size: 30px;
+    line-height: 40px;
+}
+.text h1{
+    font-weight: 800;
+    font-size: 70px;
+    letter-spacing: 20px;
+    line-height: 70px;
+}
+.text p{
+    width: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+#banner img{
+    padding: 50px 20px;
+}
+#banner a{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 50px;
+    color: black;
+    padding: 15px 20px;
+}
+.btn{
+    border: none;
+    border-radius: 10px;
+    background-color: #cfc91d;
+}
+                                                                                                            
+.about{
+      width: 1050px;
+      height: 728px;
+}
+.about :last-child{
+      border: none;
+}
+.section_info{
+      padding: 50px 100px;
+}
+.section_info h2{
+      font-weight: 800;
+      font-size: 46px;
+      color: #02918c;
+}
+.section_info p{
+      font-size: 16px;
+      color: #02918c;
+      line-height: 41px;
+}
+.section_info p b{
+      font-size: 23px;
+      color: #02918c;
+}
+.service{
+      background-image: url(myfolio_8.png);
+      background-size: cover;
+      height: 728px;
+}
+                                                                                                            
+#about{
+      padding-bottom: 70px;
+}
+.about_card{
+      width: 25%;
+      border-right: 2px solid rgba(125, 130, 135, .1);
+      padding: 40px 10px;
+}
+.about_card h3{
+      color: #7e8287;
+      padding: 20px 0;
+}
+.about_card p{
+      color: #7e8287;
+      font-size: 15px;
+      line-height: 25px;
+}
+                                                                                                            
+#service_ac .about_card{
+      border: none;
+}
+#mywork{
+      padding-bottom: 50px;
+}
+.last{
+      height: 450px;
+      background-color: #0a0a0b;
+}                                                                                                                                                                                   
+.work_card{
+      width: 25%;
+      position: relative;
+}
+.work_card img{
+      width: 337.475px;
+      height: 245px;
+}
+.overlay{
+      position: absolute;
+      background-color: rgba(30, 142, 131, .80);
+      inset: 20px 20px;
+      color: #ffff;
+      line-height: 25px;
+      padding: 57px 0;
+      opacity: 0;
+      visibility: hidden;
+      margin-top: 50px;
+}
+.overlay h3{
+      color: #ffff;
+}                                                                                                                                                                                   
+.nur{
+      background-color: #0a0a0b;
+}
+.nur p{
+      font-size: 12px;
+      padding: 15px 0;
+      color: #5a5c61;
+      background-color: #000;
+}
+.last_card{
+      font-size: 16px;
+      color: #5a5c61;
+      background-color: #0a0a0b;
+      border: 0;
+      border-bottom: 1px solid #02918c;
+      text-align: center;
+}
+.sm{
+      padding: 50px 150px 0;
+}
+.lg{
+      padding: 50px 300px 0;
+}
+
+.btn2{
+      font-weight: 700;
+      margin: 40px;
+      font-size: 15px;
+      border: none;
+      border-radius: 10px;
+      background-color: #cfc91d;
+      padding: 10px 30px;
+}
+
+/* <==== Animation ====> */
+
+.menu a:hover{
+      background-color: yellow;
+      color: blue;
+      border-radius: 20px;
+}
+#banner a:hover{
+      color: blue;
+}
+.work_card:hover .overlay{
+      opacity: 1;
+      visibility: visible;
+      margin: 0;
+}
+
+/* <==== Animation ====> */
+/* <==== Main CSS ====> */
